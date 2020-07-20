@@ -141,7 +141,7 @@
 
     cursor: pointer;
 
-    color: transparent;
+    
     border: none;
     outline: none;
     background: #ebebeb;
@@ -173,7 +173,7 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font: normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 14px/1 FontAwesome, sans-serif;
     font-size: 25px;
     line-height: 1;
     color: #959595;
@@ -290,7 +290,7 @@
 }
 .slick-dots li button:before
 {
-    font-family: 'slick';
+    font-family: 'slick', sans-serif;
     font-size: 6px;
     line-height: 20px;
 

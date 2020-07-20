@@ -83,10 +83,8 @@ tbody tr:hover {
 	<header id="mu-header">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light mu-navbar">
-				<!-- Text based logo -->
-				<a class="navbar-brand mu-logo" href="home.php"><span><img src="assets/images/index.png"></span></a>
-				<!-- image based logo -->
-			   	<!-- <a class="navbar-brand mu-logo" href="home.php"><img src="assets/images/index.png" alt="logo"></a> -->
+				<!-- Logo -->
+				<a class="navbar-brand mu-logo" href="home.php"><span><img src="assets/images/home.png" alt="logo"></span></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="fa fa-bars"></span>
 			  </button>
@@ -137,14 +135,14 @@ tbody tr:hover {
 <!-- Start main -->
 <section id="mu-service">
  <div class="table-responsive">	
-   <table id="Table">
+   <table id="Table" summary="Lista team che hai creato">
    	<thead>
 	<tr>
-		<th>Tipologia</th>
-		<th>Descrizione</th>
-		<th>Num. Max Partecipanti</th>
-		<th>Costo</th>
-		<th>Obiettivi</th>
+		<th scope="col">Tipologia</th>
+		<th scope="col">Descrizione</th>
+		<th scope="col">Num. Max Partecipanti</th>
+		<th scope="col">Costo</th>
+		<th scope="col">Obiettivi</th>
 		
 	</tr>
     </thead>

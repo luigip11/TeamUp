@@ -41,7 +41,7 @@ $run2 = mysqli_query($conn, $sql2);
   
 ?>
  <?php } ?>
- 
+
 
 <!DOCTYPE html>
 
@@ -123,10 +123,8 @@ tbody tr:hover {
 	<header id="mu-header">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light mu-navbar">
-				<!-- Text based logo -->
-				<a class="navbar-brand mu-logo" href="home.php"><span><img src="assets/images/index.png"></span></a>
-				<!-- image based logo -->
-			   	<!-- <a class="navbar-brand mu-logo" href="home.php"><img src="assets/images/index.png" alt="logo"></a> -->
+				<!-- Logo -->
+				<a class="navbar-brand mu-logo" href="home.php"><span><img src="assets/images/home.png" alt="logo"></span></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="fa fa-bars"></span>
 			  </button>
@@ -177,14 +175,14 @@ tbody tr:hover {
 <!-- Table -->
  <div class="table-responsive">
   <br>	
-   <table>
+   <table summary="Lista team a cui partecipi">
    	<thead>
 	<tr>
-		<th>Tipologia</th>
-		<th>Team</th>
-		<th>Obiettivi</th>
-		<th>Autore Team</th>
-		<th>ASTENSIONE</th>
+		<th scope="col">Tipologia</th>
+		<th scope="col">Team</th>
+		<th scope="col">Obiettivi</th>
+		<th scope="col">Autore Team</th>
+		<th scope="col">ASTENSIONE</th>
 	</tr>
     </thead>
 

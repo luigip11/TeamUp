@@ -34,10 +34,7 @@ VALUES ('$email', '$password', '$nome', '$cognome', '$telefono', '$foto', '$moti
                   <h2>Registrazione effettuata con successo!</h2>
                   <br/>Clicca qui per fare il <a href='login.php'>Login</a></div>";
         }
-    }else{
-         }
-
-
+    }
 ?>
 
 <!DOCTYPE html>

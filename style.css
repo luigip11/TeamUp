@@ -292,12 +292,13 @@ iframe {
 .mu-single-slide:before {
 	background-color:#8481b0;
 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#8481b0, endColorstr=#73b58c);
-	background-image:-moz-linear-gradient(left, #8481b0 55%, #73b58c 22%,#69bbd5 100%);
-	background-image:linear-gradient(left, #8481b0 55%, #73b58c 22%,#69bbd5 100%);
-	background-image:-webkit-linear-gradient(left, #8481b0 55%, #73b58c 22%,#69bbd5 100%);
-	background-image:-o-linear-gradient(left, #8481b0 55%, #73b58c 22%,#69bbd5 100%);
-	background-image:-ms-linear-gradient(left, #8481b0 55%, #73b58c 22%,#69bbd5 100%);
+	background-image:-moz-linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
+	background-image:-webkit-linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
+	background-image:linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
 	background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(55%,#8481b0), color-stop(22%,#73b58c),color-stop(100%,#69bbd5));
+	background-image:-o-linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
+	background-image:-ms-linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
+	
 }
 
 a:hover,
@@ -3222,9 +3223,9 @@ a:focus,
 		margin-top: 35px;
 	}
 
-	.mu-video-right {
-		padding-right: 5%;
+	.mu-video-right {	
 		padding: 10% 5%;
+		padding-right: 5%;
 	}
 
 	.mu-portfolio-area {

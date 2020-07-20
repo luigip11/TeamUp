@@ -38,10 +38,8 @@
 	<header id="mu-header">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light mu-navbar">
-				<!-- Text based logo -->
-				<a class="navbar-brand mu-logo" href="index.php"><span><img src="assets/images/index.png"></span></a>
-				<!-- image based logo -->
-			   	<!-- <a class="navbar-brand mu-logo" href="index.php"><img src="assets/images/index.png" alt="logo"></a> -->
+				<!-- Logo -->
+				<a class="navbar-brand mu-logo" href="index.php"><span><img src="assets/images/index.png" alt="logo"></span></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="fa fa-bars"></span>
 			  </button>
