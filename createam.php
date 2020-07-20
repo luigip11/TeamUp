@@ -150,7 +150,7 @@ VALUES ('$descrizione', '$id_autore', '$tipologia', '$numero_max', '$costo', '$o
     <label for="mu-single-service-content">Obiettivi</label>
     <input type="text" class="mu-register-and-search-bar-form" name="obiettivi" required>
      
-    <label for="mu-single-service-content" name="pagamento">Pagamento</label><br>
+    <label for="mu-single-service-content" name="pagamento">Modalità di pagamento</label><br>
     <input type="checkbox" class="radio" value="Nessuno" name="pagamento">
     <label for="pagamento"> Nessuno</label>
     <input type="checkbox" class="radio" value="Paypal" name="pagamento">
