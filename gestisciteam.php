@@ -151,7 +151,7 @@ tbody tr:hover {
 	<tr>
 <?php
 
-$conn = mysqli_connect("localhost", "root", "", "team_up");
+$conn = mysqli_connect("localhost", "root", "Luigi93.P11", "team_up");
 $sql = "SELECT * FROM `team` INNER JOIN users ON users.id = team.id_autore WHERE id_autore = 1";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {

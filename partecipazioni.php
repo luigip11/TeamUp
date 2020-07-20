@@ -3,7 +3,7 @@
 
 session_start(); //inizia una nuova sessione
 
-$conn = mysqli_connect("localhost","root","","team_up");
+$conn = mysqli_connect("localhost","root","Luigi93.P11","team_up");
 $sql = "SELECT * FROM `partecipazione` INNER JOIN team ON team.id = partecipazione.id_team";
 $run = mysqli_query($conn, $sql);
   while ($row=mysqli_fetch_array($run))
@@ -18,7 +18,7 @@ $run = mysqli_query($conn, $sql);
 
 <?php
 
-$conn = mysqli_connect("localhost","root","","team_up");
+$conn = mysqli_connect("localhost","root","Luigi93.P11","team_up");
 $sql1 = "SELECT * FROM `partecipazione` INNER JOIN users ON users.id = partecipazione.id_user";
 $run1 = mysqli_query($conn, $sql1);
   while ($row=mysqli_fetch_array($run1))
@@ -32,7 +32,7 @@ $run1 = mysqli_query($conn, $sql1);
 
 <?php
 
-$conn = mysqli_connect("localhost","root","","team_up");
+$conn = mysqli_connect("localhost","root","Luigi93.P11","team_up");
 $sql2 = "SELECT * FROM `team` INNER JOIN users ON users.id = team.id_autore";
 $run2 = mysqli_query($conn, $sql2);
   while ($row=mysqli_fetch_array($run2))

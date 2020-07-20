@@ -6,7 +6,7 @@ session_start(); //inizia una nuova sessione
 //funzione per connettersi ed eseguire la query
 function filterTable($query)
 {
-    $connect = mysqli_connect("localhost", "root", "", "team_up");
+    $connect = mysqli_connect("localhost", "root", "Luigi93.P11", "team_up");
     $filter_Result = mysqli_query($connect, $query);
     return $filter_Result;
 }

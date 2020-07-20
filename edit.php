@@ -3,7 +3,7 @@
 
 session_start(); //inizia una nuova sessione 
 
-$conn=mysqli_connect("localhost","root","","team_up");
+$conn=mysqli_connect("localhost","root","Luigi93.P11","team_up");
 
 //funzione per messaggio popup in javascript
 function function_alert($message) {

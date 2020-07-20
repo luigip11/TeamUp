@@ -87,10 +87,10 @@ session_start(); //inizia una nuova sessione
 									<div class="mu-title">
 										         <!-- Codice php per richiamare dati utente connesso -->
                                                  <?php
-                                                    $conn=mysqli_connect("localhost","root","","team_up");
-                                                    $sql="select * from users where email='".$_SESSION['email']."'";
-                                                    $run=mysqli_query($conn, $sql);
-                                                     while($row=mysqli_fetch_array($run))
+                                                    $conn = mysqli_connect("localhost","root","Luigi93.P11","team_up");
+                                                    $sql = "SELECT * FROM users WHERE email='".$_SESSION['email']."'";
+                                                    $run = mysqli_query($conn, $sql);
+                                                     while ($row = mysqli_fetch_array($run))
                                                      {
                                                       $id=$row[0];
                                                       $nome=$row[1];
