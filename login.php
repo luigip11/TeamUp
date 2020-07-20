@@ -46,7 +46,7 @@ require('config.php'); // includere la connessione al database
 
 <header>
 <div class="header-nav">
- <a href="index.php"><img src="assets/images/logo.png"></a>
+ <a href="index.php"><img src="assets/images/logo.png" alt="logo"></a>
 </div>
 </header>
 
