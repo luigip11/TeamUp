@@ -5053,9 +5053,8 @@ html.is-reveal-open {
       -ms-flex-align: center;
           align-items: center;
   padding: 0.5rem;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+  }
+  
   .top-bar,
   .top-bar ul {
     background-color: #e6e6e6; }

@@ -205,7 +205,7 @@ iframe {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	width: 170px;
-	color: #fff;
+	
 	border-radius: 20px;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -228,7 +228,7 @@ iframe {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	width: 170px;
-	color: #0CD442;
+	
 	border-radius: 20px;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -251,7 +251,7 @@ iframe {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	width: 170px;
-	color: #D43E0C;
+	
 	border-radius: 20px;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -294,7 +294,7 @@ iframe {
 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#8481b0, endColorstr=#73b58c);
 	background-image:-moz-linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
 	background-image:-webkit-linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
-	background-image:linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
+	background-image:linear-gradient(to left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
 	background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(55%,#8481b0), color-stop(22%,#73b58c),color-stop(100%,#69bbd5));
 	background-image:-o-linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
 	background-image:-ms-linear-gradient(left, #8481b0 55%, #73b58c 22%, #69bbd5 100%);
@@ -970,10 +970,8 @@ a:focus,
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	font-size: 16px;
-	font-weight: 700;
-	-webkit-transition: all 0.5s;
+	font-weight: 700;	
 	-o-transition: all 0.5s;
-	transition: all 0.5s;
 }
 
 .mu-simplefilter li span {
@@ -2726,7 +2724,6 @@ a:focus,
 	font-size: 14px;
 	padding: 10px;
 	height: 100px;
-	padding: 13px 25px;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
