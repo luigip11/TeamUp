@@ -166,7 +166,7 @@ tbody tr:hover {
 <!-- Start main -->
 <section id="mu-service">
  <div class="table-responsive">	
-   <table id="Table" summary="Lista team esistenti">
+   <table id="Table">
    	<thead>
 	<tr>
 		<th scope="col">Tipologia</th>
